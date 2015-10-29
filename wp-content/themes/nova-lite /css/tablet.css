@@ -5,10 +5,14 @@
 	
 }
 
+
 .container {
 	
-	margin-top: -220px;
+	margin-top: 200px;
+	
 }
+
+
 #panel ul  {
 	
 	
@@ -20,6 +24,7 @@
 	margin-top: -100px;
 }
 
+
 #menu {
 	
 	margin-top: 290px;
@@ -30,7 +35,10 @@
 	
 	#menu ul li {
 	
+	
 	float: left;
+	padding: 10px;
+	list-style: none;
 	}
 	#panel  {
 	
@@ -70,17 +78,14 @@
 
 
 
-@media screen and (min-width: 801px) and (max-width: 1199px) {
+@media screen and (min-width: 701px) and (max-width: 1199px) {
 	
 	body { 
 	background:url(../inc/images/background/patterns/fundo1.png);
 	
 }
 
-.container {
-	
-	margin-top: 200px;
-}
+
 
 
 .row{
@@ -89,14 +94,15 @@
 }
 
 
+
 .content-main{
-	width: 600px;
+	width: 90%;
 	border: solid white 1px;
 	padding: 10px;
 	box-shadow: 1px 1px 1px 1px #888888;
-	margin-bottom: 20px;
-	margin-left: 20px;
+	padding-bottom: 10px;
 	
+	background-color: pink;
 	
 }
 

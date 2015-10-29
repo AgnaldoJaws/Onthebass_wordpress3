@@ -7,9 +7,31 @@
 	
 }
 
+#menu {
+	
+	margin-top: 290px;
+	height: 63px;
+	width:100%;
+	background-color: #444444;
+	}
+	
+	#menu ul li {
+	
+	float: left;
+	padding: 10px;
+	list-style: none;
+	}
+	
+	#panel  {
+	
+	width: 1px;
+	margin-left: -20px;
+	
+}
+
 .container {
 	
-	margin-top: 500px;
+	margin-top: 200px;
 }
 #a{
 	

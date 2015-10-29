@@ -44,7 +44,7 @@
 		<?php if ( novalite_template('span') == "span8" ) : ?>
     
                 <section id="sidebar" class="span4">
-                    <div class="row">
+                    <div class="row" id="teste">
 						<?php if ( is_active_sidebar('side_sidebar_area')) { 
                         
                             dynamic_sidebar('side_sidebar_area');

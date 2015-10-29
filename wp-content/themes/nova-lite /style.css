@@ -167,8 +167,10 @@ a:focus {
 	color:#fff; 
 }
 
+
+
 .button {
-	background: #333;
+	background: red;
 	border: none;
 	outline: none;
 	padding: 12px 15px;
@@ -186,6 +188,16 @@ a:focus {
 	
 }
 
+@media screen and (min-width: 701px) and (max-width: 1199px) { 
+	.button {
+	background: blue;
+	
+	
+	
+	
+}
+	
+}
 .button:hover {
 	text-decoration:none;
 	border:none;
@@ -943,6 +955,7 @@ h3#reply-title small,
 .contact-form form,
 #searchform {
 	margin:0 !important;
+	
 }
 
 #searchform input[type=text], 
@@ -951,6 +964,7 @@ h3#reply-title small,
 .contact-form textarea,
 .comment-form input[type=text], 
 .comment-form textarea {
+	
 	padding: 15px 2%;
 	background:#fafafa;
 	width: 95%; 
@@ -965,6 +979,7 @@ h3#reply-title small,
 #searchform input[type=submit],
 .contact-form input[type=submit],
 .comment-form input[type=submit] {
+	
 	background:#333;
 	border:none;
 	outline:none;
@@ -985,10 +1000,12 @@ h3#reply-title small,
 .span12 .contact-form input[type=submit],
 .span12 .comment-form input[type=submit] {
 	margin:45px 0 -20px 0;
+	
 }
 
 #searchform input[type=submit] {
 	padding: 15px 2%;
+	
 }
 
 .contact-form input[type=submit] {
