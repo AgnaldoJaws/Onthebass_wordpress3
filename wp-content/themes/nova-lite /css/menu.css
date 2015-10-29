@@ -1,0 +1,18 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(JosefinSans-Bold.ttf);
+}
+
+p {
+	
+	color: red;
+	font-family: myFirstFont;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+	
+	
+	
+	

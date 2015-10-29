@@ -1,0 +1,49 @@
+
+@media screen and (min-width: 1025px) and (max-width:1500px) {
+
+
+	body { 
+	background:url(../inc/images/background/patterns/fundo1.png);
+	
+}
+
+.container {
+	
+	margin-top: 500px;
+}
+#a{
+	
+	margin-top: -100px;
+}
+
+#panel ul  {
+	
+	
+	margin-top: -500px;
+	float: left;
+}
+
+.row{
+	
+	margin-top: -80px;
+}
+
+.texto {
+	
+	text-align:justify;
+	margin-left:155px;
+	margin-top: -157px;
+	
+}
+
+.title {
+	
+	margin-left: 200px;
+	margin-top: -20px;
+}
+
+
+
+
+
+}
